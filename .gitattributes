@@ -30,9 +30,8 @@
 
 # set content encodings
 *                 encoding=UTF-8
-*.sprite3         encoding=UTF-8
-/mql4/            encoding=UTF-8
-/mql5/            encoding=UTF-8
+/mql4/            encoding=CP1252
+/mql5/            encoding=CP1251
 *.md              encoding=UTF-8
 
 
@@ -55,6 +54,9 @@ etc/windows/*     linguist-vendored
 mql4/files/*      linguist-generated
 profiles/*        linguist-generated
 sounds/*          linguist-vendored
+templates/*       linguist-generated
+*.mqh             linguist-language=MQL4
+*.tpl             linguist-generated
 templates/*       linguist-generated
 *.mqh             linguist-language=MQL4
 *.tpl             linguist-generated
