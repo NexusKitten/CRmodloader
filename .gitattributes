@@ -22,6 +22,7 @@
 *.phtml           text
 *.properties      text
 *.sh              text
+*.sprite3         text
 *.sql             text
 *.txt             text
 *.xml             text
